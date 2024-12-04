@@ -287,6 +287,7 @@ int main() {
   return 0;
 }
 ```
+
 In this program, the `factorial` function is defined to calculate the factorial of a given number using recursion. It includes error handling to check for negative input. The `main` function calls `factorial` with the value `5` and prints the result if no error occurs.
 
 In this program, the `factorial` function is defined to calculate the factorial of a given number using recursion. The `main` function calls `factorial` with the value `5` and prints the result.
