@@ -262,12 +262,9 @@ int factorial(int n) {
 }
 
 int main() {
-  int num = 5;
-  int result = factorial(num);
-  ```c
+
     printf("Enter a number: ");
     scanf("%d", &num);
-  ```
   if (result != -1) {
     printf("Factorial of %d is %d\n", num, result);
   }
