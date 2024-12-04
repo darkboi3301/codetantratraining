@@ -262,10 +262,15 @@ Understanding these data types is crucial for effective programming in C, as the
 A factorial of a non-negative integer is the product of all positive integers less than or equal to that integer. The factorial of `n` is denoted as `n!`. Here is a C function to calculate the factorial of a number:
 
 ```c
+```c
 #include <stdio.h>
 
 // Function to calculate factorial
 int factorial(int n) {
+  if (n < 0) {
+    printf("Error: Factorial of a negative number doesn't exist.\n");
+    return -1; // Indicate an error
+  }
   if (n == 0) {
     return 1;
   } else {
@@ -275,9 +280,13 @@ int factorial(int n) {
 
 int main() {
   int num = 5;
-  printf("Factorial of %d is %d\n", num, factorial(num));
+  int result = factorial(num);
+  if (result != -1) {
+    printf("Factorial of %d is %d\n", num, result);
+  }
   return 0;
 }
 ```
+In this program, the `factorial` function is defined to calculate the factorial of a given number using recursion. It includes error handling to check for negative input. The `main` function calls `factorial` with the value `5` and prints the result if no error occurs.
 
 In this program, the `factorial` function is defined to calculate the factorial of a given number using recursion. The `main` function calls `factorial` with the value `5` and prints the result.
