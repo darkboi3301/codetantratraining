@@ -225,13 +225,14 @@ Variables in C are used to store data that can be manipulated by the program. Th
       ```c
       int arr[5] = {1, 2, 3, 4, 5};
       ```
-      
+
     - **Pointer**: A variable that stores the memory address of another variable.
       ```c
       int *ptr;
       int num = 10;
       ptr = &num;
       ```
+      
     - **Structure**: A user-defined data type that groups related variables of different types.
       ```c
       struct Person {
