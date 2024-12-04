@@ -270,6 +270,29 @@ int main() {
   return 0;
 }
 ```
+### Memory Segments in C
 
+In C, a program's memory is divided into four main segments:
 
-  
+1. **Code Segment (Text Segment)**:
+  - Contains the compiled machine code of the program.
+  - Read-only to prevent accidental modification of instructions.
+  - Typically includes code for functions and methods.
+
+2. **Data Segment**:
+  - Divided into two parts: initialized data segment and uninitialized data segment (BSS).
+  - **Initialized Data Segment**: Stores global and static variables that are initialized by the programmer.
+  - **Uninitialized Data Segment (BSS)**: Stores global and static variables that are not initialized by the programmer. These variables are initialized to zero by default.
+
+3. **Heap Segment**:
+  - Used for dynamic memory allocation.
+  - Memory is allocated and deallocated using functions like `malloc`, `calloc`, `realloc`, and `free`.
+  - Grows upwards as memory is allocated.
+
+4. **Stack Segment**:
+  - Stores local variables, function parameters, and return addresses.
+  - Follows a Last In, First Out (LIFO) structure.
+  - Grows downwards as functions call other functions and allocate local variables.
+
+Understanding these memory segments is crucial for efficient memory management and debugging in C programs.
+
