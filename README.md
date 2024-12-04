@@ -255,3 +255,5 @@ Data types in C define the type of data that a variable can hold. They determine
       ```
 
 Understanding these data types is crucial for effective programming in C, as they form the foundation for variable declaration and manipulation.
+
+
