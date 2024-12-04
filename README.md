@@ -198,5 +198,60 @@ Variables in C are used to store data that can be manipulated by the program. Th
   }
   ```
 
+  ### Data Types in C
 
+  Data types in C define the type of data that a variable can hold. They determine the size and layout of the variable's memory, the range of values that can be stored, and the set of operations that can be performed on the variable. The primary data types in C are:
+
+  1. **Basic Data Types**:
+    - **int**: Used to store integers. Size is typically 4 bytes.
+      ```c
+      int num = 10;
+      ```
+    - **float**: Used to store floating-point numbers. Size is typically 4 bytes.
+      ```c
+      float num = 10.5;
+      ```
+    - **double**: Used to store double-precision floating-point numbers. Size is typically 8 bytes.
+      ```c
+      double num = 10.5;
+      ```
+    - **char**: Used to store single characters. Size is typically 1 byte.
+      ```c
+      char letter = 'A';
+      ```
+
+  2. **Derived Data Types**:
+    - **Array**: A collection of elements of the same type.
+      ```c
+      int arr[5] = {1, 2, 3, 4, 5};
+      ```
+    - **Pointer**: A variable that stores the memory address of another variable.
+      ```c
+      int *ptr;
+      int num = 10;
+      ptr = &num;
+      ```
+    - **Structure**: A user-defined data type that groups related variables of different types.
+      ```c
+      struct Person {
+       char name[50];
+       int age;
+      };
+      ```
+
+  3. **Enumeration**:
+    - A user-defined data type that consists of integral constants.
+      ```c
+      enum week {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
+      ```
+
+  4. **Void**:
+    - Represents the absence of type. Commonly used for functions that do not return a value.
+      ```c
+      void function() {
+       // code
+      }
+      ```
+
+  Understanding these data types is crucial for effective programming in C, as they form the foundation for variable declaration and manipulation.
 
