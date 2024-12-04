@@ -257,3 +257,27 @@ Data types in C define the type of data that a variable can hold. They determine
 Understanding these data types is crucial for effective programming in C, as they form the foundation for variable declaration and manipulation.
 
 
+### Factorial Function in C
+
+A factorial of a non-negative integer is the product of all positive integers less than or equal to that integer. The factorial of `n` is denoted as `n!`. Here is a C function to calculate the factorial of a number:
+
+```c
+#include <stdio.h>
+
+// Function to calculate factorial
+int factorial(int n) {
+  if (n == 0) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+
+int main() {
+  int num = 5;
+  printf("Factorial of %d is %d\n", num, factorial(num));
+  return 0;
+}
+```
+
+In this program, the `factorial` function is defined to calculate the factorial of a given number using recursion. The `main` function calls `factorial` with the value `5` and prints the result.
