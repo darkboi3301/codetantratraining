@@ -202,7 +202,7 @@ Variables in C are used to store data that can be manipulated by the program. Th
 
   Data types in C define the type of data that a variable can hold. They determine the size and layout of the variable's memory, the range of values that can be stored, and the set of operations that can be performed on the variable. The primary data types in C are:
 
-    1. **Basic Data Types**:
+  1. **Basic Data Types**:
       - **int**: Used to store integers. Size is typically 4 bytes.
         ```c
         int num = 10;
