@@ -1,4 +1,4 @@
-## INTRODUCTION TO C
+*## INTRODUCTION TO C
 
 > "I DID NOT Listen to anything before this cuz it was yap content imo" - Eeshwar
 ---
@@ -257,3 +257,4 @@ Variables in C are used to store data that can be manipulated by the program. Th
 
   Understanding these data types is crucial for effective programming in C, as they form the foundation for variable declaration and manipulation.
 
+*
