@@ -198,30 +198,5 @@ Variables in C are used to store data that can be manipulated by the program. Th
   }
   ```
 
-4. **Extern Variables**:
-  - Declared with the `extern` keyword.
-  - Used to declare a global variable that is defined in another file.
-  - Allows sharing of variables across multiple files.
 
-  ```c
-  extern int globalVar; // extern variable
-
-  void function() {
-     printf("%d\n", globalVar);
-  }
-  ```
-
-5. **Register Variables**:
-  - Declared with the `register` keyword.
-  - Suggests to the compiler to store the variable in a CPU register for faster access.
-  - Typically used for frequently accessed variables.
-
-  ```c
-  void function() {
-     register int regVar = 30; // register variable
-     printf("%d\n", regVar);
-  }
-  ```
-
-Understanding the different types of variables and their scope is crucial for writing efficient and maintainable C programs.
 
