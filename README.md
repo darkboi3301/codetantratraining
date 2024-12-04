@@ -133,3 +133,21 @@ int main() {
 This program includes the standard input-output header file `stdio.h` and defines the `main` function, which is the entry point of a C program. The `printf` function is used to print the message to the console.
 
 
+### Hello World with Function
+
+A simple C program to print "Hello, World!" using a function:
+
+```c
+#include <stdio.h>
+
+void printHello() {
+  printf("Hello, World!\n");
+}
+
+int main() {
+  printHello();
+  return 0;
+}
+```
+
+In this program, the `printHello` function is defined to print the message "Hello, World!" to the console. The `main` function calls `printHello` to display the message.
