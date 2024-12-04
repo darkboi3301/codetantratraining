@@ -233,7 +233,7 @@ Variables in C are used to store data that can be manipulated by the program. Th
       ptr = &num;
       ```
 
-     **Structure**: A user-defined data type that groups related variables of different types.
+     **- Structure**: A user-defined data type that groups related variables of different types.
       ```c
       struct Person {
        char name[50];
