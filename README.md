@@ -262,7 +262,6 @@ int factorial(int n) {
 }
 
 int main() {
-
     printf("Enter a number: ");
     scanf("%d", &num);
   if (result != -1) {
