@@ -254,7 +254,7 @@ int factorial(int n) {
     printf("Error: Factorial of a negative number doesn't exist.\n");
     return -1; // Indicate an error
   }
-  if (n == 0 || 
+  if (n == 0 || n==1){
     return 1;
   } else {
     return n * factorial(n - 1);
