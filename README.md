@@ -117,4 +117,17 @@ int main() {
 ```
 
 
+### Hello World in C
 
+A simple C program to print "Hello, World!" to the console:
+
+```c
+#include <stdio.h>
+
+int main() {
+  printf("Hello, World!\n");
+  return 0;
+}
+```
+
+This program includes the standard input-output header file `stdio.h` and defines the `main` function, which is the entry point of a C program. The `printf` function is used to print the message to the console.
