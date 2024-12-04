@@ -155,5 +155,73 @@ In this program, the `printHello` function is defined to print the message "Hell
 
 > "ONE HOUR and MORE YAPPPING LATER..."
 
+### Types of Variables in C
 
+Variables in C are used to store data that can be manipulated by the program. There are several types of variables in C, each with its own characteristics and usage. The main types of variables are:
+
+1. **Local Variables**:
+  - Declared inside a function or block.
+  - Accessible only within the function or block where they are declared.
+  - Not initialized automatically; must be initialized explicitly.
+
+  ```c
+  void function() {
+     int localVar = 10; // local variable
+     printf("%d\n", localVar);
+  }
+  ```
+
+2. **Global Variables**:
+  - Declared outside of all functions.
+  - Accessible from any function within the same file.
+  - Initialized automatically to zero if not explicitly initialized.
+
+  ```c
+  int globalVar = 20; // global variable
+
+  void function() {
+     printf("%d\n", globalVar);
+  }
+  ```
+
+3. **Static Variables**:
+  - Can be local or global.
+  - Retain their value between function calls.
+  - Local static variables are accessible only within the function where they are declared.
+  - Global static variables are accessible only within the file where they are declared.
+
+  ```c
+  void function() {
+     static int staticVar = 0; // static local variable
+     staticVar++;
+     printf("%d\n", staticVar);
+  }
+  ```
+
+4. **Extern Variables**:
+  - Declared with the `extern` keyword.
+  - Used to declare a global variable that is defined in another file.
+  - Allows sharing of variables across multiple files.
+
+  ```c
+  extern int globalVar; // extern variable
+
+  void function() {
+     printf("%d\n", globalVar);
+  }
+  ```
+
+5. **Register Variables**:
+  - Declared with the `register` keyword.
+  - Suggests to the compiler to store the variable in a CPU register for faster access.
+  - Typically used for frequently accessed variables.
+
+  ```c
+  void function() {
+     register int regVar = 30; // register variable
+     printf("%d\n", regVar);
+  }
+  ```
+
+Understanding the different types of variables and their scope is crucial for writing efficient and maintainable C programs.
 
