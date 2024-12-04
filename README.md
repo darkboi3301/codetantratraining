@@ -259,7 +259,6 @@ Understanding these data types is crucial for effective programming in C, as the
 
 ### Factorial Function in C
 
-A factorial of a non-negative integer is the product of all positive integers less than or equal to that integer. The factorial of `n` is denoted as `n!`. Here is a C function to calculate the factorial of a number:
 
 
 ```c
