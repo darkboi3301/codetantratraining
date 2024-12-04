@@ -240,21 +240,6 @@ Data types in C define the type of data that a variable can hold. They determine
       };
       ```
 
-3. **Enumeration**:
-    - A user-defined data type that consists of integral constants.
-      ```c
-      enum week {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
-      ```
-
-4. **Void**:
-    - Represents the absence of type. Commonly used for functions that do not return a value.
-      ```c
-      void function() {
-          // code
-      }
-      ```
-
-Understanding these data types is crucial for effective programming in C, as they form the foundation for variable declaration and manipulation.
 
 
 ### Factorial Function in C
