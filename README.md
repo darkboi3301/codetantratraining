@@ -221,7 +221,7 @@ Variables in C are used to store data that can be manipulated by the program. Th
       ```
 
   2. **Derived Data Types**:
-    - **- Array**: A collection of elements of the same type.
+     **- Array**: A collection of elements of the same type.
       ```c
       int arr[5] = {1, 2, 3, 4, 5};
       ```
@@ -241,13 +241,13 @@ Variables in C are used to store data that can be manipulated by the program. Th
       };
       ```
 
-  3. **Enumeration**:
+  1. **Enumeration**:
     - A user-defined data type that consists of integral constants.
       ```c
       enum week {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
       ```
 
-  4. **Void**:
+  2. **Void**:
     - Represents the absence of type. Commonly used for functions that do not return a value.
       ```c
       void function() {
